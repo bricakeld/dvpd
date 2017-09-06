@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Dvpd</string>
+    <string name="msg">Damn Vulnerable Peripheral Device\nVersion 1.0</string>
+    <string name="name_msg">By\nJitendra Kumar\nSunita</string>
+    <string name="home_msg">Home Activity</string>
+    <string name="scan_msg">Scanning for Bluetooth devices....</string>
+    <string name="none_found">Device not found or no device</string>
+    <string name="none_paired">not device paired...</string>
+    <string name="application_name">DVPD</string>
+    <string name="title_scan_activity">ScanActivity</string>
+    <string name="scan_device">Scan BLE Devices</string>
+
+
+
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/app_bg"
+    android:layout_gravity="center"
+    android:id="@+id/lin_lay"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logo"
+        android:background="@mipmap/bug" />
+
+    <TextView
+        android:id="@+id/tv_project_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/application_name"
+        android:gravity="center"
+        android:textColor="@color/green_color"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:textSize="60dp"
+        android:backgroundTint="@color/yellow_color"
+        android:freezesText="true"
+        />
+
+
+</LinearLayout>
+
+<!--
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/mario"
+    android:gravity="center"
+    >
+
+
+
+    <ImageView
+        android:id="@+id/SplashImage"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginBottom="20dp"
+        android:src="@mipmap/bug"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        />
+
+</LinearLayout>
+-->

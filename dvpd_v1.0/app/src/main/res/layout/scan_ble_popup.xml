@@ -1,0 +1,77 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="5"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="5"
+        >
+
+        <TextView
+            android:id="@+id/RateMe_msg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="dude! Please firstly connect with BLE Device!!"
+            android:textSize="15dp"
+            android:layout_marginTop="60dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_vertical"
+            android:textColor="@android:color/black"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="10"
+            android:layout_marginTop="120dp">
+
+            <LinearLayout
+                android:id="@+id/ContinueLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:background="@color/green_bright_color"
+                android:gravity="center"
+                android:layout_weight="6">
+
+                <TextView
+                    android:id="@+id/BookNowText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="OK"
+                    android:textSize="20dp"
+                    android:textColor="@android:color/white"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/CancelLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:background="@color/green_color"
+                android:gravity="center"
+                android:layout_weight="4"
+                android:weightSum="4">
+
+                <TextView
+                    android:id="@+id/cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cancel"
+                    android:textSize="20dp"
+                    android:textColor="@android:color/white"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+</LinearLayout>
+
+
+

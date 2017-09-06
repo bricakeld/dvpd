@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:androclass="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_bg"
+    android:weightSum="1">
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home_msg"
+        android:layout_gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"/>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/black_bright_color"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="10dp"
+
+            android:background="@color/green_color"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="25dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="30dp"
+                android:gravity="center"
+                android:text="@string/home_msg"
+                android:textColor="@android:color/white"
+                android:textSize="15dp"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp"
+            android:gravity="center">
+
+            <FrameLayout
+                android:layout_width="20mm"
+                android:layout_height="20mm"
+                android:layout_margin="20dp">
+
+                <Switch
+                    android:id="@+id/bulb_switch"
+                    android:layout_width="20mm"
+                    android:layout_height="20mm"
+                    android:text="Bulb"
+                    android:textColor="@color/white_color"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:background="@drawable/home_btn_bg"
+                    />
+
+            </FrameLayout>
+
+
+            <TextView
+                android:id="@+id/tv_btn_beacon"
+                android:layout_width="20mm"
+                android:layout_height="20mm"
+                android:text="Beacon"
+                android:textSize="20dp"
+                android:background="@drawable/home_btn_bg"
+                android:gravity="center"
+                android:textColor="@color/white_color"
+                android:layout_margin="20dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_btn_lock"
+                android:layout_width="20mm"
+                android:layout_height="20mm"
+                android:text="Lock"
+                android:textSize="20dp"
+                android:textColor="@color/white_color"
+                android:background="@drawable/home_btn_bg"
+                android:gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/tv_btn_connect"
+                android:layout_width="match_parent"
+                android:layout_height="10mm"
+                android:text="Disconnect"
+                android:textSize="20dp"
+                android:background="@drawable/home_btn_bg"
+                android:gravity="center"
+                android:textColor="@color/white_color"
+                android:layout_margin="10dp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <Spinner
+                android:id="@+id/spinner1"
+                android:layout_width="match_parent"
+                android:layout_height="10mm"
+                android:gravity="center"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:background="@drawable/home_btn_bg"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
