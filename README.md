@@ -11,7 +11,7 @@
 
 ## APK
 
-	APK file can be download form google play store [will be update soon].
+	APK file can be download form google play store [will be updated soon].
 
 ## Authors
 
