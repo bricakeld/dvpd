@@ -565,8 +565,8 @@ public class ScanActivity extends Activity {
 
         private ThreadConnectBTdevice(BluetoothDevice device) {
             bluetoothDevice = device;
-            String Address=device.getAddress().toString();
-            String Name=device.getName().toString();
+            String Address=device.getAddress();
+            String Name=device.getName();
             int State=device.getBondState();
             Log.d("bluetoothDevice", String.valueOf(bluetoothDevice));
             Log.d("FinalValues",Name+"and"+Address+"and"+State);
